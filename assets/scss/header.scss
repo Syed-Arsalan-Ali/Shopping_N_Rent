@@ -1,0 +1,35 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: $black;
+  border-radius: 0.8rem;
+  padding: 1rem 2rem;
+  transition: $transitionNav;
+
+  &:hover {
+    background-color: $navHoverBG;
+    color: $white;
+  }
+}
+
+.link-login {
+  background-color: $linkLogin;
+  color: $black;
+}
+
+.link-register {
+  background-color: $linkRegister;
+}
+
+.site-title {
+  font-size: 3rem;
+}
+
+.header-login {
+  grid-template-columns: 1fr 1fr;
+}
